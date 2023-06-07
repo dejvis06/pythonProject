@@ -10,3 +10,4 @@ parrot = "Norwegian Blue"
 print(parrot)
 print(parrot[3])
 print(parrot[0:6])
+print(parrot[:6])
