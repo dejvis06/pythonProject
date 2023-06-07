@@ -13,3 +13,8 @@ print(parrot[0:6])
 print(parrot[:6])
 print(parrot[10:])
 print(parrot[:])
+print(parrot[0:6:2])
+print(parrot[0:6:3])
+
+number = "9,111,111,111,111"
+print(number[1::4])
