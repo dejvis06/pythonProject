@@ -5,3 +5,7 @@ print(greeting + " " + name)
 
 name = input("Please enter your name: ")
 print(greeting + ' ' + name)
+
+parrot = "Norwegian Blue"
+print(parrot)
+print(parrot[3])
