@@ -9,3 +9,4 @@ print(greeting + ' ' + name)
 parrot = "Norwegian Blue"
 print(parrot)
 print(parrot[3])
+print(parrot[0:6])
