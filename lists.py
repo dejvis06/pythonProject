@@ -50,3 +50,6 @@ print(computer_parts)
 
 del computer_parts[:4]
 print(computer_parts)
+
+del computer_parts[0]
+print(computer_parts)
