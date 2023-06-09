@@ -35,3 +35,6 @@ print(computer_parts)
 
 computer_parts.sort(reverse=True)
 print(computer_parts)
+
+sorted_computer_parts = sorted(computer_parts)
+print(sorted_computer_parts)
