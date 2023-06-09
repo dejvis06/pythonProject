@@ -63,3 +63,9 @@ for nested_list in nested_lists:
     print(nested_list)
     for element in nested_list:
         print(element)
+
+
+separator = " | "
+joined = separator.join(computer_parts)
+print(joined)
+
