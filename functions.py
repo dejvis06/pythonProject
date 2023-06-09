@@ -19,9 +19,12 @@ def add(x: int, y: int) -> int:
         if x < 5:
             raise ValueError("X cannot be lower than 5")
         return x + y
-    except ValueError as exception:
-        print(str(exception))
+    except ValueError as valueError:
+        print(str(valueError))
+        return None
+    except TypeError as typeError:
+        print(str(typeError))
         return None
 
 
-print(add(3, 5))
+print(add("3", 5))
