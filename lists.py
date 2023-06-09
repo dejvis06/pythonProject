@@ -38,3 +38,9 @@ print(computer_parts)
 
 sorted_computer_parts = sorted(computer_parts)
 print(sorted_computer_parts)
+
+computer_parts[3:] = "trackball"
+print(computer_parts)
+
+computer_parts[:2] = "test"
+print(computer_parts)
