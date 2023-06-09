@@ -44,3 +44,9 @@ print(computer_parts)
 
 computer_parts[:2] = "test"
 print(computer_parts)
+
+del computer_parts[5:]
+print(computer_parts)
+
+del computer_parts[:4]
+print(computer_parts)
