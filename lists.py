@@ -53,3 +53,13 @@ print(computer_parts)
 
 del computer_parts[0]
 print(computer_parts)
+
+computer_parts = ["computer", "monitor", "keyboard", "mouse", "mouse mat"]
+for index, part in enumerate(reversed(computer_parts)):
+    print(index, part)
+
+nested_lists = [computer_parts]
+for nested_list in nested_lists:
+    print(nested_list)
+    for element in nested_list:
+        print(element)
