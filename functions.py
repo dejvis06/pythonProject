@@ -14,7 +14,7 @@ def multiply(x, y):
 print(multiply(10.5, 4))
 
 
-def add(x: int, y: int) -> int:
+def add(x: int = 5, y: int = 5) -> int:
     try:
         if x < 5:
             raise ValueError("X cannot be lower than 5")
@@ -27,4 +27,4 @@ def add(x: int, y: int) -> int:
         return None
 
 
-print(add("3", 5))
+print(add())
