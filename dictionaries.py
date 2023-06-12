@@ -11,6 +11,8 @@ print(dream_car)
 roadster = vehicles.get('roadster')
 print(roadster)
 
+print('dream' in vehicles)
+
 print('--------')
 
 for key in vehicles:
@@ -28,6 +30,8 @@ vehicles['starfighter'] = "Lockheed F-104"
 print(vehicles['starfighter'])
 vehicles['starfighter'] = "Lockheed F-1041"
 print(vehicles['starfighter'])
+
+print('--------------')
 
 vehicles.__delitem__('starfighter')
 print(vehicles)
