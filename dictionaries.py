@@ -37,3 +37,9 @@ print(vehicles)
 
 result = vehicles.pop('f1', None)
 print(result)
+
+result = vehicles.pop('f1', "Doesnt exist!")
+print(result)
+
+result = vehicles.pop('roadster', "Doesnt exist!")
+print(result)
