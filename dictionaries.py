@@ -47,3 +47,17 @@ print(result)
 
 result = vehicles.pop('roadster', "Doesnt exist!")
 print(result)
+
+other_vehicles = {
+    'mercedes': 'c-class',
+    'audi': 'A7'
+}
+
+vehicles.update(other_vehicles)
+print(vehicles)
+
+updated_vehicles = {
+    'mercedes': 'b-class'
+}
+vehicles.update(updated_vehicles)
+print(vehicles)
