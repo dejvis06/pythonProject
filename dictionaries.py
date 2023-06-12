@@ -34,3 +34,6 @@ print(vehicles)
 
 del vehicles['dream']
 print(vehicles)
+
+result = vehicles.pop('f1', None)
+print(result)
