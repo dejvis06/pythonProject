@@ -61,3 +61,6 @@ updated_vehicles = {
 }
 vehicles.update(updated_vehicles)
 print(vehicles)
+
+array = vehicles.values();
+print(array)
