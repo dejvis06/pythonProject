@@ -5,6 +5,9 @@ class Kettle(object):
         self.price = price
         self.on = False
 
+    def switch_on(self):
+        self.on = True
+
 
 kenwood = Kettle("Kenwood", 8.99)
 print(kenwood.make)
@@ -14,3 +17,11 @@ print()
 
 kenwood.price = 12.75
 print(kenwood.price)
+
+print()
+
+# kenwood.switch_on()
+print(kenwood.on)
+
+Kettle.switch_on(kenwood)
+print(kenwood.on)
