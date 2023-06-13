@@ -13,6 +13,9 @@ class Kettle(object):
     def print():
         print("Static method called!")
 
+    def print(param=str):
+        print("Static method called with param {}".format(param))
+
 
 kenwood = Kettle("Kenwood", 8.99)
 print(kenwood.make)
@@ -41,3 +44,4 @@ print(kenwood.__dict__)
 
 print()
 Kettle.print()
+Kettle.print("test")
