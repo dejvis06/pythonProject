@@ -9,6 +9,10 @@ class Kettle(object):
     def switch_on(self):
         self.on = True
 
+    @staticmethod
+    def print():
+        print("Static method called!")
+
 
 kenwood = Kettle("Kenwood", 8.99)
 print(kenwood.make)
@@ -34,3 +38,6 @@ print(Kettle("test", 1).power_source)
 
 kenwood.power_source = "oil"
 print(kenwood.__dict__)
+
+print()
+Kettle.print()
