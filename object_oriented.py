@@ -11,6 +11,9 @@ class Kettle(object):
     def switch_on(self):
         self.on = True
 
+    def get_another_attribute_private(self):
+        return self.__another_attribute_private
+
     @staticmethod
     def print():
         print("Static method called!")
@@ -53,3 +56,4 @@ print()
 print(kenwood._another_attribute_protected)
 
 print(kenwood.__dict__.get('_Kettle__another_attribute_private'))
+print(kenwood.get_another_attribute_private())
