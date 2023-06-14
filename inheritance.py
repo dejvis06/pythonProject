@@ -26,6 +26,8 @@ class Troll(Enemy):
 
     def grunt(self):
         print("Me {0.name}. {0.name} stomp you".format(self))
+    def take_damage(self, damage):
+        super().take_damage(damage=damage)
 
 
 troll = Troll("Troll")
