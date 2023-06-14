@@ -23,3 +23,7 @@ print(random_monster.__dict__)
 class Troll(Enemy):
     pass
 
+troll = Troll("Troll")
+print(troll.__dict__)
+troll.take_damage(4)
+print(troll.__dict__)
