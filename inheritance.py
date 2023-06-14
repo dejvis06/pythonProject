@@ -21,7 +21,8 @@ print(random_monster.__dict__)
 
 
 class Troll(Enemy):
-    pass
+    def __init__(self, name):
+        super().__init__(name)
 
 troll = Troll("Troll")
 print(troll.__dict__)
