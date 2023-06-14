@@ -18,3 +18,8 @@ random_monster = Enemy();
 print(random_monster.__dict__)
 random_monster.take_damage(4)
 print(random_monster.__dict__)
+
+
+class Troll(Enemy):
+    pass
+
