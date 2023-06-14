@@ -24,7 +24,12 @@ class Troll(Enemy):
     def __init__(self, name):
         super().__init__(name)
 
+    def grunt(self):
+        print("Me {0.name}. {0.name} stomp you".format(self))
+
+
 troll = Troll("Troll")
 print(troll.__dict__)
 troll.take_damage(4)
 print(troll.__dict__)
+troll.grunt()
